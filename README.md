@@ -1,52 +1,11 @@
 # message-board
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Steps taken to build the project:
 
-## Prerequisites
-
-You will need the following things properly installed on your computer.
-
-* [Git](https://git-scm.com/)
-* [Node.js](https://nodejs.org/) (with NPM)
-* [Bower](https://bower.io/)
-* [Ember CLI](https://ember-cli.com/)
-* [PhantomJS](http://phantomjs.org/)
-
-## Installation
-
-* `git clone <repository-url>` this repository
-* `cd message-board`
-* `npm install`
-* `bower install`
-
-## Running / Development
-
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
-
-### Running Tests
-
-* `ember test`
-* `ember test --server`
-
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](http://emberjs.com/)
-* [ember-cli](https://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+* create ember project
+* create repo in GitHub and push the project upstream
+* create messages.json file and create models
+* build the models structure and then add random data to the .json file matching the relationship one-to-many (no answers will be written in the json file to be imported)
+* create project in Firebase and configure environment.js
+* import messages.json to Firebase and change rules to true
+* push the next commit to the remote

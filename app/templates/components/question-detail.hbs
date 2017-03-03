@@ -1,0 +1,14 @@
+{{question.content}}<br>
+by {{question.author}}<br>
+{{question.notes}}<br>
+{{question.date}}
+
+<br>
+
+<h3>Answers</h3>
+
+<ul>
+  {{#each question.answers as |answer|}}
+    {{answer-tile answer=answer}}
+  {{/each}}
+</ul>

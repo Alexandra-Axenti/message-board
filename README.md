@@ -15,4 +15,10 @@ Steps taken to build the project:
 * encountered another error - debugging now before moving to next step
 * Gabriel helped me with the error - needed to install emberfire. Issues resolved after installation
 * compiled and finished the new-question and question-tile components
-* 
+* pushed a commit to git remote to include the new component features
+* start building the dynamic route "question" and add edit-question, answer-tile, new-answer and edit-answer components
+* added answer-tile but does not display yet
+* added the remaining components and files and the basic lines of code
+* started debugging: several misspelling, forgot to adjust the router.js for the dynamic path for the question route/page
+* the edit question gives empty values on update
+* will commit progress before next work

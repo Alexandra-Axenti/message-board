@@ -3,7 +3,7 @@ import Ember from 'ember';
 export default Ember.Component.extend({
   editQuestionForm: false,
   actions: {
-    editQuestionForm() {
+    editQuestionShow() {
       this.set('editQuestionForm', true);
     },
     edit(question) {
